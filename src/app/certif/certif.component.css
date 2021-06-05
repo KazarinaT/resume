@@ -1,0 +1,33 @@
+.textphoto{
+    text-align: center;
+     font-family: 'Playfair Display', serif;
+   font-style: italic;
+    font-size: 20px;
+}
+.part4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+      font-family: 'Playfair Display', serif;
+   font-style: italic;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 50px;
+}
+ .pos { 
+   position: absolute;
+   border: 3px double #0c800c;
+   border-radius: 8px;
+   padding: 2px;
+   background-color: #fff;
+   box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.45);
+   cursor: pointer; 
+}
+.pos1 { left: 20%; top: 60px; }
+.pos2 { left: 28%; top: 130px; }
+.pos3 { left: 50%; top: 20px; }
+.pos4 { left: 33%; top: 210px; }
+.pos5 { left: 48%; top: 140px;}       
+.pos:hover {
+    z-index: 1; 
+}

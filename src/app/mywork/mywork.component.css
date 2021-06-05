@@ -1,0 +1,81 @@
+.part3{
+    background-color: azure;
+    border: 1px solid azure;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+      font-family: 'Playfair Display', serif;
+   font-style: italic;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 40px;
+}
+#exampl{
+            
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9,#p10,#p11,#p12{
+   margin: 20px;
+   border: 1px solid white;
+   font-size: 20px;
+   height: auto;
+   width: 400px;
+   box-shadow: 0px 0px 10px 1px black;
+   border-radius: 5px;
+   float: left;
+   text-align: center;
+   padding-bottom: 10px;
+   padding-top: 15px;
+}
+
+#p1:hover, #p2:hover, #p3:hover,  #p4:hover, #p5:hover,  #p6:hover,  #p7:hover,  #p8:hover,  #p9:hover,  #p10:hover,  #p11:hover, #p12:hover{
+   transform: scale(1.1,1.2);
+   transition: 0,5s;
+}        
+#b1, #b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10,#b11, #b12{
+    margin-top: 30px;
+    width: 135px;
+    height: 40px;
+    border: 0.1px solid #b4daea;
+    border-radius: 5px;
+    background: #b4daea;
+    color: white;
+     font-family: serif;
+    font-size: 15px;
+    
+}
+details summary {
+display: block;  /* у summary по умолчанию свойство display в значении list-item, потому поддерживается свойство list-style */
+width: 10em;
+width: -webkit-fit-content;
+width: -moz-fit-content;
+width: fit-content;  /* блок раскрывается при щелчке по кнопке, а не по всей строке */
+border-bottom: 1px dotted;  /* подводка точками или тире часто используется для элементов, с которыми пользователю предлагается взаимодействовать, можно заменить на text-decoration */
+outline-style: none;  /* удалить обводку при фокусе */
+cursor: pointer;
+}
+details summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+display: none;
+}
+.c9{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 30px;
+    
+}

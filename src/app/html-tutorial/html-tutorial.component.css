@@ -1,0 +1,19 @@
+* {
+    font-family: monospace;
+    text-align: justify
+}
+
+/*отображение пунктирной линии
+.c1 {
+    border-bottom: 1px dotted black;
+}*/
+/* установка на определенный класс цвет текста коричневый и цвет фона серый */
+.c2 {
+    color: brown;
+    background-color: #F0F0F0;
+}
+/* установка цвета текста в класе и фонт под текстом */
+.c3 {
+    color: lightseagreen;
+    background-color: #F0F0F0;
+}

@@ -1,0 +1,38 @@
+.part1{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 25px;
+    background: #a0d7ed;
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 30px;
+    
+}
+.topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#e0f0f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+   font-family:verdana;
+   font-size:12px;
+   border-radius: 5px;
+      }
+      .c9{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }

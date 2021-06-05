@@ -1,0 +1,1 @@
+import{MyCertificat} from './mycertif'
